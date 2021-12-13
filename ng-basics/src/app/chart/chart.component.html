@@ -1,0 +1,13 @@
+<div class="container">
+    <canvas id="my_first_chart"></canvas>
+    <h2 [ngStyle]="CssL" id="textL">Change Line Color</h2>
+    <input type="color" (input)="ChangeLineColor($event)" id="inputL1"><br>
+    <h2 [ngStyle]="CssF" id="textF">Change Fill Color</h2>
+    <input type="color" (input)="ChangeFillColor($event)" id="inputF1"><br>
+    <select name="chartType" id="chartType" (click)="updateChartType()">
+        <option value="line">Line</option>
+        <option value="bar">Bar</option>
+        <option value="fill">Fill</option>
+    </select>
+    <p>{{ data_line }}</p>
+</div>

@@ -1,0 +1,70 @@
+.btn {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    left: 45vw;
+    margin-top: 1vw;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 3vw;
+    margin: 0;
+}
+
+input {
+    width: 40vw;
+    height: 2vw;
+    margin: 1.4vw;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    border-radius: 0.5vw;
+    padding: 0.3vw;
+    background-color: #FAEEDD;
+    margin-top: 2vw;
+}
+
+.notes {
+    border: 1px solid black; 
+    margin-top: 2vw;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    background-color: #FFE4C4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    transition: all .3s ease 0s;
+}
+
+.a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    border: 1px dashed black;
+    transition: all .3s ease 0s;
+}
+
+.a:hover {
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 2vw;
+}

@@ -1,0 +1,44 @@
+.container {
+    width: 45vw;
+    height: 60vh;
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
+input {
+    width: calc(1.2vw + 30px);
+    height: calc(1.2vw + 30px);
+    border: none;
+    position: relative;
+    top: 12.5px;
+    background-color: #fff;
+}
+
+input::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+h2 {
+    vertical-align: center;
+    display: inline-block;
+    font-size: calc(1.2vw + 5px);
+    padding-right: 1%;
+    padding-left: 5%;
+}
+
+p {
+    font-size: calc(1vw + 5px);
+    padding-left: 1vw;
+    display: inline-block;
+}
+
+#chartType2 {
+    font-size: calc(1vw + 5px);
+    border-radius: 7px;
+    margin-top: 2vh;
+}

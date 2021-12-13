@@ -1,0 +1,12 @@
+<input id="input">
+<button class="btn" (click)="AddNote()">
+    <h2>+</h2>
+</button>
+
+<button class="a">
+    <a [routerLink]="['']">На главную</a>
+</button>
+
+<div *ngFor="let iter of texts" class="notes">
+    {{ iter.text }}
+</div>

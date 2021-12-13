@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    transition: all .3s ease 0s;
+}
+
+.a {
+    font-size: 1vw;
+    text-decoration: none;
+    position: absolute;
+    top: 0.6vw;
+    left: 0.6vw;
+    border: 1px dashed black;
+    transition: all .3s ease 0s;
+}
+
+.a:hover {
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.container-fluid {
+    padding: 0;
+    margin-left: -1vw;
+}
+
+.btn {
+    position: fixed;
+    right: 10vw;
+    top: 47.5vh;
+    font-weight: bold;
+    background-color: #3b5998;
+    color: #fcfcee;
+    text-align: center;
+    border-radius: 0.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5vw;
+    padding: 1vw;
+    margin: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+    left: 0;
+}

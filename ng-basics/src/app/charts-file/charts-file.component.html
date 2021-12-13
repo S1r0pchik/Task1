@@ -1,0 +1,48 @@
+<button class="a">
+    <a [routerLink]="['']">На главную</a>
+</button>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<button class="btn" (click)="Sort()">
+    <p>Sort</p>
+</button>
+
+<!-- Решение максимально глупое, я понимаю, но так как я делал таке задане слишком долго, так как у меня некотрые выходные вылетали из-за олимпиад, а днём учусь и сортировку отложил на последок, а чтобы по нормальному реализовать сортировку мне бы пришлось всё переписать -->
+<div class="container" *ngIf="first">
+    <app-chart></app-chart>
+    <app-chart-bar></app-chart-bar>
+    <app-chart-fill></app-chart-fill>
+</div>
+
+<div class="container" *ngIf="second">
+    <app-chart></app-chart>
+    <app-chart-fill></app-chart-fill>
+    <app-chart-bar></app-chart-bar>
+</div>
+
+<div class="container" *ngIf="third">
+    <app-chart-bar></app-chart-bar>
+    <app-chart></app-chart>
+    <app-chart-fill></app-chart-fill>
+</div>
+
+<div class="container" *ngIf="fourth">
+    <app-chart-bar></app-chart-bar>
+    <app-chart-fill></app-chart-fill>
+    <app-chart></app-chart>
+</div>
+
+<div class="container" *ngIf="fifth">
+    <app-chart-fill></app-chart-fill>
+    <app-chart></app-chart>
+    <app-chart-bar></app-chart-bar>
+</div>
+
+<div class="container" *ngIf="sixth">
+    <app-chart-fill></app-chart-fill>
+    <app-chart-bar></app-chart-bar>
+    <app-chart></app-chart>
+</div>
+
+<router-outlet></router-outlet>
